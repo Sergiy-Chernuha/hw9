@@ -1,4 +1,4 @@
-package global.goit;
+package global.goit.mylinckedlistfolder;
 
 import global.goit.interfaces.MyList;
 

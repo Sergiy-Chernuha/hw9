@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a351804-9af2-4f56-8752-2662cc0fd997" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/global/goit/MyArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global/goit/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global/goit/MyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/global/goit/interfaces/MyList.java" afterDir="false" />
+    <list default="true" id="8a351804-9af2-4f56-8752-2662cc0fd997" name="Changes" comment="Finished ArrayList and LinkedList classes">
+      <change afterPath="$PROJECT_DIR$/src/global/goit/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/global/goit/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/global/goit/myhashmapfolder/MyEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/global/goit/myhashmapfolder/MyHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/global/goit/myhashmapfolder/MyMapNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global/goit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/goit/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/goit/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/goit/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/goit/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/goit/mylinckedlistfolder/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global/goit/MyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/global/goit/mylinckedlistfolder/MyNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +50,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="global.goit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="global.goit.Main" />
       <module name="hw9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="global.goit.*" />
+          <option name="PATTERN" value="global.goit.mylinckedlistfolder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,7 +65,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.global.goit.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680558918391</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished ArrayList and LinkedList classes">
+      <created>1680815951945</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680815951945</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +108,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="Finished ArrayList and LinkedList classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished ArrayList and LinkedList classes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/hw9$Main.ic" NAME="Main Coverage Results" MODIFIED="1680811776951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,22 +1,15 @@
 package global.goit;
 
-import global.goit.interfaces.MyList;
-
 import java.util.Arrays;
 
-public class MyArrayList<T> implements MyList<T> {
+public class MyQueue<T> {
     private int size = 0;
     private T[] array;
 
-    public MyArrayList() {
+    public MyQueue() {
         array = (T[]) new Object[10];
     }
 
-    public MyArrayList(int capacity) {
-        array = (T[]) new Object[capacity];
-    }
-
-    @Override
     public void add(T value) {
         checkExtraSize();
         array[size] = (T) value;
@@ -29,34 +22,27 @@ public class MyArrayList<T> implements MyList<T> {
         }
     }
 
-    @Override
-    public void remove(int index) {
-        if (index < size && index > 0) {
-            int lastItems = size - index - 1;
-            System.arraycopy(array, index + 1, array, index,
-                    lastItems);
-            size--;
-        }
-    }
-
-    @Override
     public void clear() {
         array = (T[]) new Object[]{};
         size = 0;
     }
 
-    @Override
     public int size() {
         return size;
     }
 
-    @Override
-    public T get(int index) {
-        if (index < size) {
-            return array[index];
+    T peek() {
+        if (size == 0) {
+            return null;
         }
 
-        return null;
+        return array[0];
+    }
+
+    T poll() {
+        T getValue = peek();
+        System.arraycopy(array, 1, array, 0, --size);
+        return getValue;
     }
 
     @Override

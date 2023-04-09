@@ -1,4 +1,4 @@
-package global.goit;
+package global.goit.mylinckedlistfolder;
 
 public class MyNode<T> {
     private MyNode<T> prevNode;
