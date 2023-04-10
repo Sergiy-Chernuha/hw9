@@ -23,7 +23,7 @@ public class MyHashMap<K, V> {
                 localNode.setValue(value);
                 return;
             }
-            for (int i = 0; i < size - 1; i++) {
+            for (int i = 0; i <= size - 1; i++) {
                 if (localNode.getNextNode() == null) {
                     localNode.setNextNode(new MyMapNode<>(key, value, null, hashCode));
                     size++;
